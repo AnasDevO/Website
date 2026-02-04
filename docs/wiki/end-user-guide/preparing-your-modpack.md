@@ -21,7 +21,7 @@ To prepare your modpack for Cleanroom Loader, review the lists below and make re
 | **Phosphor**           | Incompatible                                                    | :white_check_mark: Use **[Alfheim Lighting Engine](https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine)** or **[Hesperus](https://www.curseforge.com/minecraft/mc-mods/hesperus)**         |
 | **Polyfrost series**   | Awaiting official fixes.                                        | —                                                                                                                                                                                                           |
 | **Raw Input**          | Already included in Cleanroom.                                  | :no_entry_sign: Remove                                                                                                                                                                                      |Whatisup#1
-| **Secret Rooms**       | Has an issue with its update checker.                           | :no_entry_sign: Disable the update checker in config file                                                                                                                                                   |
+| **Secret Rooms**       | Has an issue with its update checker.                           | :warning: Disable the update checker in config file                                                                                                                                                         |
 | **SerializationIsBad** | Redundant. Modern Java versions will fix the issue this solves. | :no_entry_sign: Remove                                                                                                                                                                                      |
 | **TexFix**             | Merged and rewritten in CensoredASM.                            | :white_check_mark: Use **[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)**                                                                                                               |
 | **VanillaFix**         | Merged and improved in CensoredASM.                             | :white_check_mark: Use **[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)**                                                                                                               |
@@ -49,7 +49,7 @@ Universal Tweaks supersedes a lot of mods which will be mostly not mentioned her
 
 The most prominent Render optimization mods for **Minecraft 1.12.2** are:
 
-- **[OptiFine](https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar&x=c2f6)** (Consider using [OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine))
+- **[OptiFine](https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar&x=c2f6)** (Consider pairing it with [OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine))
 - **[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)** (Requires **_Cleanroom Loader_**, use the [version 2.3.0](https://github.com/kappa-maintainer/Celeritas-auto-build/releases/download/release%2F2.3.0-dev.13-54-g9e892798-20250819T004238/celeritas-forge-mc12.2-2.3.0-dev.jar) to take advantage of baked quad optimizations (CensoredASM), or 2.4.0+ to be on latest Celeritas)
 - **[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium)** (Also requires **[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium)**)
 
@@ -75,15 +75,14 @@ Old and new 1.12.2 mods made with MCreator are highly not recommended for use no
 Mods that were created entirely using generated code from AI (rather than as a learning tool) are also highly not recommended, the mod's code will be highly varied in quality (often poor), it can also be either prone to crashes or downright placebos, especially if it is a performance related mod. <br> <br>
 
 ::: info Note {id="note"}
-If you're new to mod creation and want to start making a mod, we highly recommend creating the mod from scratch instead to avoid complications with learning.
+If you're new to mod creation and want to start making a mod, we highly recommend creating the mod from scratch instead to avoid complications with learning.<br>You can join our discord server to receive support when starting your modding journey. 
 :::
 
 
 ## Superseded mods
 
 ::: info Note {id="note"}
-These mods are not necessarily incompatible with Cleanroom loader, but have been superseded by newer forks and mods or do not present any benefit, so we recommend the following actions. <br> <br>
-
+These mods are not necessarily incompatible with Cleanroom loader, but have been superseded by newer forks and mods or do not present any benefit, so we recommend the following actions.<br>
 For forks not listed below, keep in mind that not all of them are beneficial. Some forks introduce extra bugs that were not in the original mod, some were forked mostly for a specific modpack's benefit and some were forked due to internal conflicts with the original mod's developers. Use those forks at your own discretion.
 :::
 
